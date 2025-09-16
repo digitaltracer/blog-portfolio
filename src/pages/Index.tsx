@@ -56,7 +56,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-center mb-12">
             Latest from the Blog
           </h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {/* <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Card className="bg-gradient-card shadow-card hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6 text-center">
                 <div className="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mx-auto mb-4">
@@ -82,7 +82,7 @@ const Index = () => {
                 </p>
               </CardContent>
             </Card>
-          </div>
+          </div> */}
           
           {/* Featured Blog Posts */}
           <div className="mt-12 space-y-6">
