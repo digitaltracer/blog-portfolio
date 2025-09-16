@@ -16,7 +16,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            DevPortfolio
+            Home
           </Link>
           
           <div className="flex items-center gap-2">
