@@ -1,0 +1,138 @@
+{
+  "name": "Adarsh N B",
+  "contact": {
+    "phone": "+91 9623599354",
+    "email": "adarshnb@gmail.com",
+    "linkedin": "linkedin.com/in/adarshnb",
+    "github": "github.com/digitaltracer"
+  },
+  "education": [
+    {
+      "university": "BITS Pilani Goa Campus",
+      "location": "Goa, India",
+      "degree": "Bachelor of Technology",
+      "date": "2014"
+    }
+  ],
+  "summary": "Results-driven backend engineer with 9+ years of experience building and scaling distributed systems in fast-paced environments. Specialized in Kafka-based architectures, asynchronous processing, and observability tooling. Known for driving standardization through internal libraries, improving system reliability, and collaborating cross-functionally to deliver scalable solutions. Passionate about simplifying complex infrastructure through clean design and automation, resulting in faster deployments, easier debugging, and reduced operational overhead.",
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Docket AI",
+      "location": "Bangalore, India",
+      "dates": "May 2024 - Present",
+      "responsibilities": [
+        "Integrated with 8+ third-party platforms (e.g., Salesforce, Highspot) to enhance cross-system data ingestion, increasing sync reliability by 40%.",
+        "Redesigned the core platform architecture to accommodate growing customer demand, reducing latency by 30% and improving scalability.",
+        "Developed a standardized Kafka and logging library adopted across all microservices, minimizing code duplication and simplifying onboarding.",
+        "Implemented a centralized observability stack using Prometheus and EFK, cutting incident resolution time by 50% through real-time alerting and dashboards."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Inflection.io",
+      "location": "Bangalore, India",
+      "dates": "Apr 2022 - Sep 2023",
+      "responsibilities": [
+        "Created a campaign control system to process millions of data points and dynamically determine stopping criteria, improving targeting effectiveness and resource utilization.",
+        "Led development of high-impact features including 100x faster email tracking, bulk contact uploads, and CRM integrations (Salesforce, Segment), improving campaign performance and customer experience.",
+        "Designed and deployed a Dead Letter Queue (DLQ) mechanism to isolate and monitor Kafka stream errors, improving pipeline reliability and error traceability.",
+        "Mentored junior engineers, conducted code/design reviews, and led delivery of multiple cross-functional initiatives."
+      ]
+    },
+    {
+      "title": "Senior Product Engineer",
+      "company": "FullContact",
+      "location": "Kochi, India",
+      "dates": "Jan 2021 - Mar 2022",
+      "responsibilities": [
+        "Contributed to the Identity Graph team managing over 1B entities and 10B data points, enhancing entity resolution quality across 10+ products.",
+        "Built custom data visualization tools for debugging identity anomalies, reducing investigation time by 60%.",
+        "Automated and maintained several dependent data workflows, improving operational efficiency and reducing manual intervention."
+      ]
+    },
+    {
+      "title": "Team Lead - Data Pipeline",
+      "company": "FullContact",
+      "location": "Kochi, India",
+      "dates": "Apr 2019 - Dec 2020",
+      "responsibilities": [
+        "Led a 3-person Big Data Engineering team responsible for the batch enrichment pipeline, enabling identity resolution for B2B customers.",
+        "Oversaw hiring, agile planning, and delivery cycles as team lead and SCRUM master, improving velocity and cross-team alignment.",
+        "Improved pipeline throughput by 10x by optimizing Spark jobs, storage patterns, and job orchestration.",
+        "Designed and deployed full automation of the enrichment pipeline, allowing customer-triggered processing with zero manual steps."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "FullContact",
+      "location": "Kochi, India",
+      "dates": "Jan 2016 - Mar 2019",
+      "responsibilities": [
+        "Developed REST APIs using Flask for FullContact's identity enrichment platform, improving service modularity and scaling backend systems.",
+        "Built a ReactJS-based internal dashboard and Chrome extension to help users detect and resolve conflicting graph data, increasing analyst productivity."
+      ]
+    },
+    {
+      "title": "Algorithms Engineer",
+      "company": "ZLemma",
+      "location": "Pune, India",
+      "dates": "Apr 2014 - Sept 2015",
+      "responsibilities": [
+        "Designed and implemented entity extraction algorithms for names, emails, phone numbers, and date formats from unstructured documents.",
+        "Developed logic to classify resume sections even with ambiguous or missing headings.",
+        "Assisted in decomposing a monolithic system into microservices for improved scalability."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "json-resume",
+      "url": "https://github.com/digitaltracer/json-resume",
+      "technologies": ["Python", "Playwright", "Langchain"],
+      "date": "June 2025",
+      "description": [
+        "Developed a tool to generate a resume from a JSON file using Playwright using a defined template",
+        "Used Langchain to generate job matching score for a job description and a resume"
+      ]
+    },
+    {
+      "name": "Serenity Notes",
+      "url": "https://github.com/digitaltracer/serenity",
+      "technologies": ["Typescript", "React", "TailwindCSS", "React Native"],
+      "date": "July 2025 - Present",
+      "description": [
+        "A cross-platform desktop productivity app with Electron and React, leveraging a Turborepo monorepo to manage shared UI, core logic, and database packages for streamlined and scalable development.",
+        "Implemented a robust security framework featuring end-to-end encryption (E2EE), biometric authentication, and secure system keychain storage to ensure zero-knowledge data privacy for all user content.",
+        "A dynamic user experience by building a suite of productivity tools with 30+ interactive React components, featuring drag-and-drop functionality, data visualizations, arich-text editor, and customizable keyboard shortcuts.",
+        "A secure, extensible service to sync with third-party platforms like GitHub and Google Calendar, using OAuth and encrypted token storage to centralize external data into a unified productivity hub."
+      ]
+    }
+  ],
+  "skills": {
+    "Languages": [
+      "Python",
+      "Java",
+      "Scala",
+      "TypeScript",
+      "JavaScript",
+      "SQL",
+      "NoSQL"
+    ],
+    "Soft Skills": [
+      "Team Leadership",
+      "Cross-functional Collaboration",
+      "Technical Mentorship",
+      "Project Management",
+      "Analytical Thinking"
+    ],
+    "Others": [
+      "AWS & Cloud Infrastructure",
+      "CI/CD (GitHub Actions, Jenkins)",
+      "Monitoring (Prometheus, Grafana, EFK)",
+      "Kubernetes & Docker",
+      "Apache Kafka & Airflow",
+      "Spark & Distributed Data Processing"
+    ]
+  }
+}
